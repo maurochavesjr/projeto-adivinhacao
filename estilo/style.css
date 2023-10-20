@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #007bff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #ddd;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 30%;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer{
+    background-color: #1a1a1a;
+    color: #ddd;
+    padding: 10px 0;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#message{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#message.success{
+    color: #28a745;
+}
+
+#message.error{
+    color: #dc3545
+}
+
+
+#socialLinks {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#socialLinks a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#socialLinks img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    input{
+        width: 75%;
+    }
+    button {
+        font-size: 16px;
+    }
+}

@@ -2,7 +2,7 @@
 
 <img src="Captura de tela 2023-10-20 195820.png" alt="Exemplo imagem">
 
-> Projeto de criado de forma autoral para testar meu aprendizado em JavaScript, HTML e CSS. O objetivo do projeto é de um jogo simples de adivinhação, em que o usuário tem 5 chances de adivinhar o número aleatório entre 1 e 100.
+> Projeto criado de forma autoral para testar meu aprendizado em JavaScript, HTML e CSS. O objetivo do projeto é de um jogo simples de adivinhação, em que o usuário tem 5 chances de adivinhar o número aleatório entre 1 e 100.
 
 ### Ajustes e melhorias
 
